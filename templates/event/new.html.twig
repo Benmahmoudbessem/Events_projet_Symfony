@@ -1,0 +1,14 @@
+<h1> Udd Event</h1>
+<form method="post" class="event-form">
+    {{ form_start(formE) }}
+
+    {{ form_row(formE.dateD) }}
+    {{ form_row(formE.dateF) }}
+    {{ form_row(formE.lieu) }}
+    {{ form_row(formE.nom) }}
+    {{ form_row(formE.category) }}
+
+    <button type="submit" class="btn btn-primary">Add Event</button>
+
+    {{ form_end(formE) }}
+</form>

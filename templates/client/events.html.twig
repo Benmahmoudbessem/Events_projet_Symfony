@@ -1,0 +1,14 @@
+<table>
+    <tr>
+        <td> nom</td>
+        <td> lieu</td>
+    </tr>
+
+    {% for i in listeI %}
+    <tr>
+        <td> {{ i.event.nom }}</td>
+
+        <td> {{ i.event.lieu }}</td>
+    </tr>
+    {% endfor %}
+</table>
